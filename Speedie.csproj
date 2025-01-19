@@ -133,6 +133,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Features.cs" />
     <Compile Include="GradientLabel.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -140,6 +141,7 @@
     <Compile Include="LoaderControl.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="OllamaConnector.cs" />
     <Compile Include="PaddingTextBox.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -154,7 +156,6 @@
     <Compile Include="SpeedieForm.Designer.cs">
       <DependentUpon>SpeedieForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="SpeedieService.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

@@ -13,10 +13,6 @@ namespace Speedie
 
             // Create an instance of MainForm
             SpeedieForm speedieForm = new SpeedieForm();
-            speedieForm.Hide();
-
-            // Start the speech recognition in the background
-            speedieForm.InitializeSpeechRecognition();
 
             // Run the application
             Application.Run();
